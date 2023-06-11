@@ -36,14 +36,18 @@ a {
     display: inline-block;
     padding: 0 16px;
     min-width: 108px;
-    height: 48px;
+    height: 68px;
     font-weight: 600;
     font-size: 1.8rem;
-    line-height: 48px;
+    line-height: 68px;
     text-align: center;
     color: #fff;
     background: #1ebfc1;
     border-radius: 14px;
+}
+
+.btn:hover {
+    opacity: 0.9;
 }
 
 /* Header */
@@ -98,6 +102,8 @@ a {
 
 .header .action-btn {
     margin-left: 9px;
+    height: 48px;
+    line-height: 48px;
     background: #ffffff;
     font-weight: 600;
     font-size: 16px;
@@ -109,4 +115,233 @@ a {
 .header .action-btn:hover {
     color: #fff;
     background: var(--primary-color);
+}
+
+/* Hero */
+.hero {
+    margin-top: 42px;
+}
+
+.hero .body {
+    display: flex;
+    align-items: center;
+}
+
+/* Hero left */
+.hero .info {
+    width: 51%;
+}
+
+.hero .title {
+    font-size: 1.4rem;
+    color: #767e7e;
+}
+
+.hero .heading {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0d1111;
+}
+
+.hero .desc {
+    margin-top: 46px;
+    width: 374px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9da6a5;
+}
+
+.hero .desc span {
+    white-space: nowrap;
+}
+
+.hero .group-cta {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+
+.hero .hero-cta {
+    min-width: 186px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+
+.hero .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    background: #ffffff;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+}
+
+.hero .icon:hover {
+    background: #ededed;
+    cursor: pointer;
+}
+
+/* Hero right */
+.hero .media-block {
+    position: relative;
+    width: 49%;
+}
+
+.hero .media-block .thumb {
+    width: 100%;
+    height: 631px;
+    object-fit: cover;
+}
+
+/* Courses */
+.hero .courses {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 149px;
+    left: -49px;
+    width: 157px;
+    height: 75px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 18px;
+}
+
+.hero .courses::before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 28px;
+    height: 4px;
+    top: 45px;
+    left: 29px;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+.hero .courses .content {
+    display: flex;
+    align-items: center;
+}
+
+.hero .courses .book {
+    margin-left: 25px;
+    width: 36px;
+    height: 40px;
+}
+
+.hero .student .avatar,
+.hero .student span,
+.hero .schedules span,
+.hero .courses span {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 15px;
+    color: #0d1111;
+}
+
+.hero .courses span {
+    margin-left: 16px;
+    width: 55px;
+}
+
+/* Schedules */
+.hero .schedules {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 453px;
+    left: -65px;
+    width: 124px;
+    height: 132px;
+    background: #ffffff;
+    box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero .schedules span,
+.hero .schedules .list {
+    margin-top: 16px;
+}
+
+.hero .schedules .ratio {
+    margin-top: 12px;
+    width: 74px;
+    height: 6px;
+    background: #edf1f5;
+    border-radius: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero .schedules .ratio:first-child {
+    margin-top: 0;
+}
+
+.hero .schedules .ratio:last-child {
+    width: 26px;
+}
+
+.hero .schedules .ratio::before {
+    display: block;
+    content: "";
+    width: calc(79px * var(--ratio-done, 0) / 100);
+    height: 6px;
+    background: #fb9899;
+    border-radius: 3px;
+}
+
+.hero .schedules .ratio-done:nth-child(1) {
+    --ratio-done: 50;
+}
+
+.hero .schedules .ratio-done:nth-child(2) {
+    --ratio-done: 69;
+}
+
+.hero .schedules .ratio-done:nth-child(3) {
+    --ratio-done: 45;
+}
+
+/* Student */
+.hero .student {
+    position: absolute;
+    top: 500px;
+    right: 45px;
+    width: 207px;
+    height: 90px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+.hero .student .content {
+    margin: 17px 35px;
+}
+
+.hero .student .avatar-block {
+    display: flex;
+    margin-top: 8px;
+}
+
+.hero .student .avatar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -7px;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+    color: #ffffff;
+    background-color: #1ebfc1;
+}
+
+.hero .student .avatar:first-child {
+    margin-left: 0;
 }
