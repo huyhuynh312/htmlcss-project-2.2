@@ -119,7 +119,7 @@ a {
 
 /* Hero */
 .hero {
-    margin-top: 42px;
+    padding: 42px 0 79px;
 }
 
 .hero .body {
@@ -344,4 +344,62 @@ a {
 
 .hero .student .avatar:first-child {
     margin-left: 0;
+}
+
+/* Feature */
+.feature {
+    padding-top: 130px;
+}
+
+/* Top feature */
+.feature .top-feature .title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #767e7e;
+}
+
+.feature .top-feature .heading {
+    margin-top: 18px;
+    width: 577px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0d1111;
+}
+
+.feature .top-feature .desc {
+    margin-top: 18px;
+    width: 590px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #767e7e;
+}
+
+/* Bottom feature */
+.feature .bottom-feature {
+    margin-top: 80px;
+}
+
+.feature .bottom-feature .list {
+    display: flex;
+    gap: 200px;
+}
+
+.feature .bottom-feature .info {
+    margin-top: 26px;
+}
+
+.feature .bottom-feature .strong {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 30px;
+    color: #0d1111;
+}
+
+.feature .bottom-feature .desc {
+    width: 224px;
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
 }
