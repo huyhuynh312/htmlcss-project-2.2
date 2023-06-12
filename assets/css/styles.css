@@ -403,3 +403,129 @@ a {
     line-height: 1.69;
     color: #9da6a5;
 }
+
+/* Courses */
+.course {
+    padding-top: 130px;
+}
+
+/* Top course */
+.course .top-course .title {
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 18px;
+    color: #767e7e;
+}
+
+.course .top-course .heading {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 63px;
+    color: #0d1111;
+}
+
+.course .top-course .content {
+    margin-top: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.course .top-course .desc {
+    width: 525px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #767e7e;
+}
+
+.course .top-course .cta {
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #1ebfc1;
+}
+
+/* Bottom course */
+.course .bottom-course {
+    margin-top: 79px;
+}
+
+.course .bottom-course .list {
+    display: flex;
+    align-items: center;
+    gap: 47px;
+}
+
+.course .bottom-course img {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    background: #d0efed;
+    border-radius: 8px;
+}
+
+.course .bottom-course .link {
+    display: block;
+    position: relative;
+}
+
+.course .bottom-course img:hover {
+    opacity: 0.35;
+}
+
+.course .bottom-course .info {
+    padding: 18px 25px 29px;
+    position: absolute;
+    content: "";
+    display: block;
+    bottom: -124px;
+    left: 17px;
+    width: 325px;
+    height: 195px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.course .bottom-course .cost,
+.course .bottom-course .sub-title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 33px;
+    color: #0d1111;
+}
+
+.course .bottom-course .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 24px;
+    color: #767e7e;
+}
+
+.course .bottom-course .sub-desc {
+    margin-top: 6px;
+}
+
+.course .bottom-course .sub-desc,
+.course .bottom-course span {
+    font-size: 1.4rem;
+    color: #9da6a5;
+}
+
+.course .bottom-course .class {
+    margin-top: 18px;
+}
+
+.course .bottom-course .item,
+.course .bottom-course .class {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.course .bottom-course .icon {
+    width: 6px;
+    height: 6px;
+}
