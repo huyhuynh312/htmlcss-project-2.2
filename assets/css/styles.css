@@ -698,3 +698,33 @@ a {
     right: 32px;
     bottom: 29px;
 }
+
+/* Sign in */
+.sign-in-cta {
+    padding: 76px 0 88px;
+    background: #def6f5;
+}
+
+.sign-in-cta .cta-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-cta .heading {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 63px;
+    color: #070707;
+}
+
+.sign-in-cta .desc {
+    margin-top: 18px;
+    font-size: 1.8rem;
+    line-height: 27px;
+    color: #767e7e;
+}
+
+.sign-in-cta .cta-btn {
+    margin-left: 410px;
+    min-width: 186px;
+}
