@@ -776,6 +776,11 @@ a {
     color: #535353;
 }
 
+.footer .list li:hover a,
+.footer .list li:hover img {
+    color: var(--primary-color);
+}
+
 .footer .social {
     display: inline-flex;
     align-items: center;
