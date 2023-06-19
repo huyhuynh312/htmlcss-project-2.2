@@ -47,7 +47,8 @@ a {
 }
 
 .btn:hover {
-    opacity: 0.9;
+    background: #a4efef;
+    color: var(--primary-color);
 }
 
 /* Header */
@@ -182,7 +183,7 @@ a {
 }
 
 .hero .icon:hover {
-    background: #ededed;
+    background: #a4efef;
     cursor: pointer;
 }
 
@@ -465,7 +466,6 @@ a {
     width: 359px;
     height: 393px;
     object-fit: cover;
-    background: #d0efed;
     border-radius: 8px;
 }
 
@@ -474,8 +474,13 @@ a {
     position: relative;
 }
 
+.course .bottom-course .link:hover {
+    background-color: #d0efed;
+}
+
 .course .bottom-course img:hover {
     opacity: 0.35;
+    background: #d0efed;
 }
 
 .course .bottom-course .info {
@@ -640,7 +645,7 @@ a {
 }
 
 .feedback-block .content .control-btn:hover {
-    opacity: 0.8;
+    background: #a4efef;
     cursor: pointer;
 }
 
