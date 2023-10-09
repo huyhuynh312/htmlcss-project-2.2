@@ -25,9 +25,20 @@ a {
     text-decoration: none;
 }
 
+a,
+input,
+textarea,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
 .main-content {
     width: 1170px;
-    max-width: calc(100% -48px);
+    max-width: calc(100% - 48px);
     margin-left: auto;
     margin-right: auto;
 }
@@ -53,6 +64,7 @@ a {
 
 /* Header */
 .header {
+    padding-top: 48px;
     background: #ffffff;
 }
 
@@ -63,20 +75,19 @@ a {
 }
 
 .header .body {
-    padding: 52px 0 8px;
+    padding: 8px 0 8px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #fff;
 }
 
 .header .logo {
     display: block;
 }
 
-.nav {
+.nav ul {
     display: flex;
-    padding-left: 0;
-    list-style: none;
 }
 
 .nav a {
@@ -257,7 +268,7 @@ a {
     align-items: center;
     flex-direction: column;
     position: absolute;
-    top: 453px;
+    bottom: 49px;
     left: -65px;
     width: 124px;
     height: 132px;
@@ -313,7 +324,7 @@ a {
 /* Student */
 .hero .student {
     position: absolute;
-    top: 500px;
+    bottom: 44px;
     right: 45px;
     width: 207px;
     height: 90px;
@@ -459,10 +470,11 @@ a {
 .course .bottom-course .list {
     display: flex;
     align-items: center;
-    gap: 47px;
+    column-gap: 47px;
 }
 
 .course .bottom-course img {
+    display: block;
     width: 359px;
     height: 393px;
     object-fit: cover;
@@ -526,11 +538,15 @@ a {
     margin-top: 18px;
 }
 
-.course .bottom-course .item,
+.course .bottom-course .quantity,
 .course .bottom-course .class {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.course .bottom-course .quantity {
+    flex-shrink: 0;
 }
 
 .course .bottom-course .icon {
