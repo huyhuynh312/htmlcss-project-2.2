@@ -9,6 +9,7 @@
 html,
 body {
     scroll-behavior: smooth;
+    overscroll-behavior: none;
 }
 
 html {
@@ -29,7 +30,8 @@ a,
 input,
 textarea,
 select,
-button {
+button,
+article {
     font-family: inherit;
     font-size: inherit;
     color: inherit;
@@ -362,7 +364,7 @@ button {
 /* Feature */
 .feature {
     padding-top: 130px;
-    background: #e5e5e5;
+    background: #fff;
 }
 
 /* Top feature */
@@ -421,7 +423,7 @@ button {
 /* Courses */
 .course {
     padding: 130px 0 124px;
-    background: #e5e5e5;
+    background: #fff;
 }
 
 /* Top course */
@@ -557,7 +559,7 @@ button {
 /* Stats */
 .stats {
     padding: 265px 0 130px;
-    background: #e5e5e5;
+    background: #fff;
 }
 
 .stats .row {
